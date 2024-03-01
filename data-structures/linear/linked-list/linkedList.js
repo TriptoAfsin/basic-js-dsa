@@ -19,6 +19,33 @@ class LinkedList {
         this.head = head;
         this.tail = tail;
     }
+
+    //helper methods
+    getFirst() {
+        return this.head;
+    }
+    getLast() {
+        let lastNode = this.head;
+        if (lastNode) {
+            while (lastNode.next) {
+                lastNode = lastNode.next
+            }
+        }
+        return lastNode
+    }
+    size() {
+        let count = 0; 
+        for (let node = this.head; node; node = node.next) {
+            //goes through until node becomes null, cause the last node.next = null
+            count++;
+        }
+        return count;
+    }
+    clear() {
+        this.head = null;
+    }
+
+    
 }
 
 //Let's create a linked list with the class we just created
@@ -37,3 +64,11 @@ let list = new LinkedList(node1, node3)
 
 console.log('list head', list.head)
 console.log('list tail', list.tail)
+
+
+//okay now some helper methods
+console.log('list first: ', list.getFirst())
+
+console.log('list first: ', list.getLast())
+
+console.log('list size: ', list.size())
