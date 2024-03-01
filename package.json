@@ -1,0 +1,11 @@
+{
+  "name": "basic-js-dsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "linked-list": "nodemon ./data-structures/linear/linked-list/linkedList.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
