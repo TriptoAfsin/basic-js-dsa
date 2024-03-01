@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "linked-list": "nodemon ./data-structures/linear/linked-list/linkedList.js"
+    "linked-list": "nodemon ./data-structures/linear/linked-list/linkedList.js",
+    "stack": "nodemon ./data-structures/linear/stack/stack.js"
   },
   "author": "",
   "license": "ISC"
