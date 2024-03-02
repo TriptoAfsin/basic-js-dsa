@@ -1,6 +1,8 @@
 console.log('stack');
 //Stack is a linear data structure in which the addition or removal of an element 
-// follows a particular order i.e. LIFO(Last in First Out) AND FILO(First in Last Out). 
+// follows a particular order i.e. LIFO(Last in First Out). 
+
+// Stack is always LIFO
 
 //1. Creating the stack
 class Stack {
@@ -23,7 +25,7 @@ class Stack {
         if (this.isEmpty()) {
             return "Underflow";
         }
-        return this.items.pop();
+        return this.items.pop(); //here is the main diff with queue, queue would use shift() here
     }
     // Peek: Method to return the top element of the stack without removing it
     peek() {
