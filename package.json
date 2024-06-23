@@ -6,7 +6,8 @@
   "scripts": {
     "linked-list": "nodemon ./data-structures/linear/linked-list/linkedList.js",
     "stack": "nodemon ./data-structures/linear/stack/stack.js",
-    "queue": "nodemon ./data-structures/linear/queue/queue.js"
+    "queue": "nodemon ./data-structures/linear/queue/queue.js",
+    "tree": "nodemon ./data-structures/non-linear/tree/tree.js"
   },
   "author": "Tripto Afsin",
   "license": "ISC"
